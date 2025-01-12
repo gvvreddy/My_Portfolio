@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vishnu Vardhan G</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf5f7; /* Light turquoise, like the peacock's feather base */
+            color: #2d3e50; /* Darker text for readability */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1f3a68; /* Deep blue like the peacock feather */
+            color: #fff;
+            padding: 20px 10%;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #ffcc00; /* Golden yellow for name */
+        }
+
+        .header-right img {
+            width: 100px;
+        }
+
+        nav {
+            background: #16a085; /* Turquoise, inspired by the peacock's colors */
+            padding: 10px 10%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff; /* White for links */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00; /* Golden yellow on hover */
+        }
+
+        section {
+            padding: 20px 10%;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+            border-bottom: 2px solid #ffcc00; /* Golden underline */
+            display: inline-block;
+        }
+
+        .projects, .skills, .education, .responsibilities, .courses, .achievements {
+            margin-bottom: 40px;
+        }
+
+        .projects li, .skills li, .responsibilities li, .courses li, .achievements li {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #1f3a68; /* Same deep blue as header */
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #ffcc00; /* Golden footer link color */
+            text-decoration: none;
+        }
+
+        .achievements ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .achievements li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="vishnu.jpg" alt="Your Photo">
+            <h1>Vishnu Vardhan G</h1>
+        </div>
+        <div class="header-right">
+            <img src="iitg_logo.webp" alt="IITG Logo">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#responsibilities">Responsibilities</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>Hi! I'm Vishnu Vardhan G, currently pursuing M.Tech in Computer Science and Engineering at IIT Guwahati. I am passionate about machine learning, database management, and solving complex problems using programming.</p>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education">
+            <li>M.Tech, Computer Science and Engineering, IIT Guwahati (2024 - Present)</li>
+            <li>B.Tech, SASTRA University, Thanjavur (2017 - 2021), CGPA: 8.34</li>
+            <li>Senior Secondary, State Board (2017), 97.6%</li>
+            <li>Secondary, CBSE (2015)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="projects">
+            <li><strong>Diabetes Prediction using PCA and K-means Technique:</strong>
+                <ul>
+                    <li>Implemented the model using Logistic Regression, achieving 99% accuracy, based on a methodology proposed in a peer-reviewed research paper.</li>
+                    <li>Focused on preprocessing the dataset, applying PCA for feature extraction, and fine-tuning the K-means clustering and Logistic Regression models.</li>
+                    <li>Evaluated the model's performance and compared the results with the research paper's findings to ensure consistency.</li>
+                    <li>Gained hands-on experience in using machine learning libraries such as Scikit-learn, Pandas, and NumPy.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills">
+            <li>Programming Languages: C, C++</li>
+            <li>Database Management: MySQL</li>
+            <li>Operating Systems</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>Github</li>
+        </ul>
+    </section>
+
+    <section id="responsibilities">
+        <h2 class="section-title">Responsibilities</h2>
+        <ul class="responsibilities">
+            <li>Branch Representative, M.Tech, IIT Guwahati</li>
+        </ul>
+    </section>
+
+    <section id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="courses">
+            <li>Deep Learning</li>
+            <li>Speech Processing</li>
+            <li>Design and Analysis of Algorithms</li>
+            <li>Image Processing with ML</li>
+            <li>Computer Systems Lab</li>
+            <li>Database Management Systems</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="achievements">
+            <li>Secured AIR 365 in GATE CS 2024</li>
+            <li>Ranked in the top 10% of the class in M.Tech at IIT Guwahati</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>Email: <a href="mailto:vishnu.g@iitg.ac.in">vishnu.g@iitg.ac.in</a></p>
+        <p>Phone: +91-9000242577</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vishnugvardhan" target="_blank">linkedin.com/in/vishnugvardhan</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vishnu Vardhan G | <a href="#">Back to top</a></p>
+    </footer>
+</body>
+</html>
